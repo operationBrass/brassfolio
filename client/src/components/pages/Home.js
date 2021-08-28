@@ -1,19 +1,11 @@
+import Header from '../Header'
+
 
 function Home() {
     return (<div>
 
-<header className="header">
-      <div className="header-container">
-        <nav className="header-nav">
-          <ul>
-            <li><a href="#"> Home </a></li>
-            <li><a href="./Assets/about-me.html"> About </a></li>
-            <li><a href="./Assets/projects.html"> Projects</a></li>
-            <li><a href="./Assets/contact.html"> Contact </a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        <Header></Header>
+        
 
     <section className="showcase-intro">
       <div className="showcase-title">
