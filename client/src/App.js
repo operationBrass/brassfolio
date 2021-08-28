@@ -3,6 +3,8 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Project from './components/pages/Project'
+import 'semantic-ui-css/semantic.min.css'
+
 import { BrowserRouter as Router, Route  } from 'react-router-dom';
 
 function App() {

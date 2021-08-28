@@ -1,10 +1,10 @@
 import Footer from '../Footer'
-import Header from '../Header'
+import Heading from '../Heading';
 
 function About() {
     return (
         <div>
-            <Header></Header>
+            <Heading></Heading>
 <main className="showcase">
     <div className="main-content">
 <section>

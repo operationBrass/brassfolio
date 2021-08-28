@@ -1,5 +1,5 @@
 
-function Header() {
+function Heading() {
     return(
         <header className="header">
         <div className="header-container-main">
@@ -15,4 +15,4 @@ function Header() {
         </header>)
 }
 
-export default Header;
+export default Heading;
