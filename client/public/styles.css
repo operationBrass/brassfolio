@@ -1,473 +1,396 @@
 :root {
-    /*color based varibles*/
+  /*color based varibles*/
 
-    --main-bg-color:rgba(191, 195, 207, 0.746);
-    --h1-color: rgba(194, 86, 44, 0.6);
-    --h1-hover-color: rgba(194, 86, 44, 1); /*applies to other styles other than h1*/
-    --h2-color: rgba(240, 198, 11, 0.5);
-    --h2-hover-color: rgba(44, 127, 138,1);
-    --foot-bg-color:  rgba(51, 51, 51, 0.623);
-    --header-a-color: rgba(255, 251, 0, 0.5);
-    --header-a-hover: rgba(255, 251, 0, 1);
-    --main-p-color: rgba(143, 192, 86, .7);
-    --footer-p-color: rgba(44, 127, 138,1);
-    --bg-img: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)), url("../Assets/images/explorersunset.jpg");
+  --main-bg-color: rgba(191, 195, 207, 0.746);
+  --h1-color: rgba(194, 86, 44, 0.6);
+  --h1-hover-color: rgba(
+    194,
+    86,
+    44,
+    1
+  ); /*applies to other styles other than h1*/
+  --h2-color: rgba(240, 198, 11, 0.5);
+  --h2-hover-color: rgba(44, 127, 138, 1);
+  --foot-bg-color: rgba(51, 51, 51, 0.623);
+  --header-a-color: rgba(255, 251, 0, 0.5);
+  --header-a-hover: rgba(255, 251, 0, 1);
+  --main-p-color: rgba(143, 192, 86, 0.7);
+  --footer-p-color: rgba(44, 127, 138, 1);
+  --bg-img: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url("./images/explorersunset.jpg");
 
-    /*screen width max for main*/
-    --main-maxwidth: 1280px;
-  }
-
-  html
-  {
-      min-height: 100vh;
-  }
-
-body
-{
- margin:0;
- padding:0;
- box-sizing: border-box;
- background-color: var(--main-bg-color); /*main-bg-color*/
- flex-wrap: wrap;
- max-height: 100%;
- background-position: bottom;
- background-image: var(--bg-img);
- background-size:cover;
+  /*screen width max for main*/
+  --main-maxwidth: 1280px;
 }
 
-
-.main-content
-{
-    margin: auto;
-    max-width: var(--main-maxwidth);
-    font-size: 1.5em;
-    line-height: 1.2em;
-    color:var(--main-p-color)
+html {
+  min-height: 100vh;
 }
 
-h1
-{
-   
-    color: var(--h1-color);
-    font-size:8em;
-    line-height: 1em;
-    padding-right: 50%;
-    text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--main-bg-color); /*main-bg-color*/
+  flex-wrap: wrap;
+  max-height: 100%;
+  background-position: bottom;
+  background-image: var(--bg-img);
+  background-size: cover;
 }
 
-
-h1:hover
-{
-    color:var(--h1-hover-color);
+.main-content {
+  margin: auto;
+  max-width: var(--main-maxwidth);
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: var(--main-p-color);
 }
 
-h2
-{
-
-    color: var(--h2-color);
-    font-size:4rem;
- 
+h1 {
+  color: var(--h1-color);
+  font-size: 8em;
+  line-height: 1em;
+  padding-right: 50%;
+  text-align: center;
 }
 
-
-
-
- .showcase-enter
- {
-     text-align: right;
-     color: var(--h1-color);
-     font-size: 1.5em;
-     
- }
-
- /*enter button*/
-
- .butt-styles
-{
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 2rem;
-    border-radius:2rem;
-    color:rgba(194, 86, 44, 0.787); 
-    text-align: justify;
-    border-style: none;
-    cursor:pointer;
+h1:hover {
+  color: var(--h1-hover-color);
 }
 
-.butt-styles:hover
-{
-    color:rgba(194, 86, 44, 0.787); 
-    border-style: dotted;
+h2 {
+  color: var(--h2-color);
+  font-size: 4rem;
 }
 
+.showcase-enter {
+  text-align: right;
+  color: var(--h1-color);
+  font-size: 1.5em;
+}
+
+/*enter button*/
+
+.butt-styles {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 2rem;
+  border-radius: 2rem;
+  color: rgba(194, 86, 44, 0.787);
+  text-align: justify;
+  border-style: none;
+  cursor: pointer;
+}
+
+.butt-styles:hover {
+  color: rgba(194, 86, 44, 0.787);
+  border-style: dotted;
+}
 
 /*splash*/
 
- .showcase-intro
- {
-     display:flex;
-     justify-content: space-around;
-     align-items: center;
-     height:70vh;
- }
-
-
- /*header section*/
- 
-
-.header-container-main
-{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    background-image: var(--bg-img);
-
+.showcase-intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
 }
 
+/*header section*/
 
-.header-container
-{
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+.header-container-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: var(--bg-img);
 }
 
-
-.header-nav ul, .main-nav ul
-{
-padding: 0 1.5em;
-display: flex;
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.header-nav li, .main-nav li
-{
-padding: 1rem 1.5rem;
-font-size: 2em;
-list-style-type: none;
+.header-nav ul,
+.main-nav ul {
+  padding: 0 1.5em;
+  display: flex;
 }
 
-.header-nav a, .main-nav a
-{
-text-decoration: none;
-text-transform: uppercase;
-border-bottom: 3px;
-padding-bottom: 0.5rem; 
-color:rgba(255, 251, 0, 0.5);
-}
-.header-nav a:hover, .main-nav a:hover
-{
-color:rgba(255, 251, 0, 1);
+.header-nav li,
+.main-nav li {
+  padding: 1rem 1.5rem;
+  font-size: 2em;
+  list-style-type: none;
 }
 
-
+.header-nav a,
+.main-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px;
+  padding-bottom: 0.5rem;
+  color: rgba(255, 251, 0, 0.5);
+}
+.header-nav a:hover,
+.main-nav a:hover {
+  color: rgba(255, 251, 0, 1);
+}
 
 /* end header */
 
-
-
-
 /*content*/
 
-.project-flex
-{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.myWorkTitle
-{
-    width: 70%;
-    margin: auto;
+.myWorkTitle {
+  width: 70%;
+  margin: auto;
 }
 
-#projects
-{
-    text-align: center;
-    margin: 50px;
-    text-decoration: underline;
+#projects {
+  text-align: center;
+  margin: 50px;
+  text-decoration: underline;
 }
 
-
-
-.myWork
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
+.myWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
-.workCard
-{
-   
-    display: flex;
-    margin: 10px;
-    width: 70%;
-    
+.workCard {
+  display: flex;
+  margin: 10px;
+  width: 70%;
 }
 
 /*setup the card borders by div ID */
- /*shadow effect around each card. inset is short hand for top, left right and bottom*/
-#realMeal
-{
-    box-shadow: inset 10px 10px 5px rgb(211, 233, 14),
-    inset  -10px -10px 5px rgba(213, 216, 42, 0.8);
-    background-color: rgba(228, 224, 13, 0.224);
+/*shadow effect around each card. inset is short hand for top, left right and bottom*/
+#realMeal {
+  box-shadow: inset 10px 10px 5px rgb(211, 233, 14),
+    inset -10px -10px 5px rgba(213, 216, 42, 0.8);
+  background-color: rgba(228, 224, 13, 0.224);
 }
 
-h5
-{
-    margin-top:20px;
-    margin-bottom: 10px;
-    font-size: 2rem;
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
-.project-intro,.myWorkText, .contact
-{
-    font-family: 'Noto Sans JP', sans-serif;
+.project-intro,
+.myWorkText,
+.contact {
+  font-family: "Noto Sans JP", sans-serif;
 }
-.myWorkText
-{
-    color: rgba(255, 255, 255, 0.7);
-    padding-left:15px;
-    font-size: 1.3rem;
-
-}
-
-.myWorkText a
-{
-    color: rgb(240, 170, 6);
-    text-decoration: none;
+.myWorkText {
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 15px;
+  font-size: 1.3rem;
 }
 
-.myWorkText a:hover
-{
-    color: rgb(240, 92, 6);
-    text-decoration: underline;
+.myWorkText a {
+  color: rgb(240, 170, 6);
+  text-decoration: none;
 }
 
-
-
-#weather
-{
-    box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
-    inset  -10px -10px 5px rgba(228, 232, 233, 0.315);
-    background-color: rgba(25, 69, 139, .7);
+.myWorkText a:hover {
+  color: rgb(240, 92, 6);
+  text-decoration: underline;
 }
 
-#passGen
-{
-    box-shadow: inset 10px 10px 5px rgb(9, 129, 15),
-    inset  -10px -10px 5px rgba(15, 148, 11, 0.8);
-    background-color: rgba(9, 129, 15,0.224);
+#weather {
+  box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
+    inset -10px -10px 5px rgba(228, 232, 233, 0.315);
+  background-color: rgba(25, 69, 139, 0.7);
 }
 
-.formContainer
-{
-    display: flex;
-    flex-direction: column;
+#passGen {
+  box-shadow: inset 10px 10px 5px rgb(9, 129, 15),
+    inset -10px -10px 5px rgba(15, 148, 11, 0.8);
+  background-color: rgba(9, 129, 15, 0.224);
 }
 
-.myWorkImg
-{
-    margin: 10px;
-    width:50%;
-
+.formContainer {
+  display: flex;
+  flex-direction: column;
 }
 
-.project-img:hover
-{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/comingsoon.jpg");
+.myWorkImg {
+  margin: 10px;
+  width: 50%;
 }
 
-
-.project-opening
-{
-    text-align: center;
+.project-img:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("./images/comingsoon.jpg");
 }
 
-
-article
-{
-    border: 5px dotted rgba(194, 86, 44, 1);
+.project-opening {
+  text-align: center;
 }
 
-.contact
-{
-    margin-top:50px;
-    text-align: center;
+article {
+  border: 5px dotted rgba(194, 86, 44, 1);
 }
 
-#resume, #contactDeets a
-{
-    text-decoration: none;
-    color: var(--main-p-color);
+.contact {
+  margin-top: 50px;
+  text-align: center;
 }
 
-#resume:hover,#contactDeets a:hover
-{
-    text-decoration: underline;
+#resume,
+#contactDeets a {
+  text-decoration: none;
+  color: var(--main-p-color);
 }
 
+#resume:hover,
+#contactDeets a:hover {
+  text-decoration: underline;
+}
 
-.socials
-{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 70%;
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
 }
 
 /* Style all font awesome icons */
-.fa, .fas {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover, .fas:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Linkedin */
-  .fa-linkedin {
-    background:  rgb(0,96,151);
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-github {
-    background: #000000;
-    color: white;
-  }
-
-    /* Youtube */
-    .fa-youtube {
-        background: #f60303;
-        color: white;
-      }
-
-    /* Facebook*/
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
-
-      h2
-      {
-          text-align: center;
-          color:var(--h2-color);
-      }
-      
-      h2:hover
-      {
-          color:var(--h2-hover-color);
-      }
-      
-      
-      #contact-me
-      {
-          text-align: center;
-      }
-      
-      .about-container
-      {
-          display:flex;
-          flex-wrap: wrap;
-      }
-      
-      .about-container img
-      {
-          padding:10px;
-      }
-      
-      /* footer */
-      
-      .footer-content
-      {
-          margin:auto;
-          display: flex;
-          flex-wrap: wrap;
-          position: absolute;
-          bottom:0;
-      
-      }
-      
-      .footer-content p
-      {
-          font-size: 1em;
-          color: var(--footer-p-color);
-          text-align: center;
-          
-      }
-
-
-  @media only screen and (max-width: 799px) {
-
-    .showcase-title h1
-    {
-        font-size: 25px;
-    }
-
-    .showcase-enter a
-    {
-        font-size: 15px;
-    }
-
-    footer p
-    {
-        font-size: 1rem;
-    }
-
-    .header-nav ul, .main-nav ul,  .project-flex
-    {
-        flex-direction: column;
-        align-content: left;
-        justify-content: center;
-        margin:0;
-        font-size: 1rem;
-    }
-
-
-    h2
-    {
-        font-size: 2rem;
-    }
-
-    .myWorkText, .project-intro
-    {
-        font-size: 1rem;
-        text-align: justify;
-    }
-
-    .myWorkImg
-    {
-        height: 200px;
-        width:200px;
-    }
-  }
-
-
-
-@media only screen and (max-width: 400px) {
-
- 
-    .myWorkText, .project-intro
-    {
-        font-size: 1rem;
-        text-align: justify;
-    }
-
+.fa,
+.fas {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
-  
+/* Add a hover effect if you want */
+.fa:hover,
+.fas:hover {
+  opacity: 0.7;
+}
 
+/* Set a specific color for each brand */
+
+/* Linkedin */
+.fa-linkedin {
+  background: rgb(0, 96, 151);
+  color: white;
+}
+
+/* Twitter */
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #f60303;
+  color: white;
+}
+
+/* Facebook*/
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: var(--h2-color);
+}
+
+h2:hover {
+  color: var(--h2-hover-color);
+}
+
+#contact-me {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-container img {
+  padding: 10px;
+}
+
+/* footer */
+
+.footer-content {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-content p {
+  font-size: 1em;
+  color: var(--footer-p-color);
+  text-align: center;
+}
+
+@media only screen and (max-width: 799px) {
+  .showcase-title h1 {
+    font-size: 25px;
+  }
+
+  .showcase-enter a {
+    font-size: 15px;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+
+  .header-nav ul,
+  .main-nav ul,
+  .project-flex {
+    flex-direction: column;
+    align-content: left;
+    justify-content: center;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .myWorkText,
+  .project-intro {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .myWorkImg {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .myWorkText,
+  .project-intro {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
