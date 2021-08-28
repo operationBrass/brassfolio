@@ -13,8 +13,8 @@ function Home() {
       </div>
       <div className="showcase-enter">
         <p>
-          <a href="./Assets/projects.html" className="butt-styles">
-            VIEW MY WORK
+          <a href="/projects" className="butt-styles">
+            BROWSE MY WORK
           </a>
         </p>
       </div>
