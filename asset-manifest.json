@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/brassfolio/static/css/main.b5e657a0.chunk.css",
+    "main.js": "/brassfolio/static/js/main.fedad45c.chunk.js",
+    "main.js.map": "/brassfolio/static/js/main.fedad45c.chunk.js.map",
+    "runtime-main.js": "/brassfolio/static/js/runtime-main.c96abce9.js",
+    "runtime-main.js.map": "/brassfolio/static/js/runtime-main.c96abce9.js.map",
+    "static/css/2.61987e01.chunk.css": "/brassfolio/static/css/2.61987e01.chunk.css",
+    "static/js/2.fc25740d.chunk.js": "/brassfolio/static/js/2.fc25740d.chunk.js",
+    "static/js/2.fc25740d.chunk.js.map": "/brassfolio/static/js/2.fc25740d.chunk.js.map",
+    "static/js/3.619f49eb.chunk.js": "/brassfolio/static/js/3.619f49eb.chunk.js",
+    "static/js/3.619f49eb.chunk.js.map": "/brassfolio/static/js/3.619f49eb.chunk.js.map",
+    "index.html": "/brassfolio/index.html",
+    "static/css/2.61987e01.chunk.css.map": "/brassfolio/static/css/2.61987e01.chunk.css.map",
+    "static/css/main.b5e657a0.chunk.css.map": "/brassfolio/static/css/main.b5e657a0.chunk.css.map",
+    "static/js/2.fc25740d.chunk.js.LICENSE.txt": "/brassfolio/static/js/2.fc25740d.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/brassfolio/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/styles.css": "/brassfolio/static/media/explorersunset.ab06a00c.jpg",
+    "static/media/myprofilepic.326b92ae.jfif": "/brassfolio/static/media/myprofilepic.326b92ae.jfif",
+    "static/media/index.css": "/brassfolio/static/media/passgenLogo-2.705ab763.PNG",
+    "static/media/passwordGen.1a18be8e.png": "/brassfolio/static/media/passwordGen.1a18be8e.png",
+    "static/media/quiz.c38e9012.PNG": "/brassfolio/static/media/quiz.c38e9012.PNG",
+    "static/media/quizLogo-1.5a728063.PNG": "/brassfolio/static/media/quizLogo-1.5a728063.PNG",
+    "static/media/realmealLogo.938b7067.PNG": "/brassfolio/static/media/realmealLogo.938b7067.PNG",
+    "static/media/teamgen-logo.5fbad0a3.PNG": "/brassfolio/static/media/teamgen-logo.5fbad0a3.PNG",
+    "static/media/teamgen.2ba8ef56.PNG": "/brassfolio/static/media/teamgen.2ba8ef56.PNG",
+    "static/media/techBlog.2f7d40d6.PNG": "/brassfolio/static/media/techBlog.2f7d40d6.PNG",
+    "static/media/techblog-logo.8bb9910d.PNG": "/brassfolio/static/media/techblog-logo.8bb9910d.PNG",
+    "static/media/therealmealApp.b836c0ff.PNG": "/brassfolio/static/media/therealmealApp.b836c0ff.PNG",
+    "static/media/weatherForecast.e201f673.png": "/brassfolio/static/media/weatherForecast.e201f673.png",
+    "static/media/weatherLogo.d4b31d59.PNG": "/brassfolio/static/media/weatherLogo.d4b31d59.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c96abce9.js",
+    "static/css/2.61987e01.chunk.css",
+    "static/js/2.fc25740d.chunk.js",
+    "static/css/main.b5e657a0.chunk.css",
+    "static/js/main.fedad45c.chunk.js"
+  ]
+}
