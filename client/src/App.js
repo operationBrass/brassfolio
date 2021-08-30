@@ -1,4 +1,5 @@
 import './App.css';
+import './styles.css'
 import './index.css'
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -12,13 +13,14 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App" style={{
-      backgroundImage: `url(${background})`,
-      backgroundRepeat: 'no-repeat',
-      height: '100vh',
-      backgroundSize: 'cover',
-    backgroundPosition:'bottom'}}
-    >
+    <div
+      style={{
+      backgroundImage: 'url('+background+')',
+        backgroundSize: "cover",
+        minHeight:"100vh",
+        backgroundPosition:"bottom"
+    }}
+>
 
       <Router>
         <Switch>

@@ -21,6 +21,8 @@ This is my personal portfolio!
 
 Browse my latest work and reach out if you would if you have any questions!
 
+Vist my [Portfolio](https://operationbrass.github.io/brassfolio/) to learn more about my work
+
 ## Installation
 
 With Node installed, open a new BASH terminal in the directory of the app and run NPM Install
