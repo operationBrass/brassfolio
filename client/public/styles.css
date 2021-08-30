@@ -14,7 +14,7 @@
   --foot-bg-color: rgba(51, 51, 51, 0.623);
   --header-a-color: rgba(255, 251, 0, 0.5);
   --header-a-hover: rgba(255, 251, 0, 1);
-  --main-p-color: rgba(143, 192, 86, 0.7);
+  --main-p-color: rgba(143, 192, 86, 0.5);
   --footer-p-color: rgba(44, 127, 138, 1);
   --bg-img: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
     url("./images/explorersunset.jpg");
@@ -171,11 +171,6 @@ h2 {
 
 /*setup the card borders by div ID */
 /*shadow effect around each card. inset is short hand for top, left right and bottom*/
-#realMeal {
-  box-shadow: inset 10px 10px 5px rgb(211, 233, 14),
-    inset -10px -10px 5px rgba(213, 216, 42, 0.8);
-  background-color: rgba(228, 224, 13, 0.224);
-}
 
 h5 {
   margin-top: 20px;
@@ -189,7 +184,7 @@ h5 {
   font-family: "Noto Sans JP", sans-serif;
 }
 .myWorkText {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   padding-left: 15px;
   font-size: 1.3rem;
 }
@@ -215,30 +210,32 @@ h5 {
   opacity: 0.9;
 }
 
+.projectImages {
+  height: 250px;
+}
+
 #passgen {
   background-color: rgba(13, 180, 124, 0.2);
 }
 
 #weather {
-  background-color: rgba(25, 69, 139, 0.2);
+  background-color: rgba(233, 127, 40, 0.5);
 }
 
 #realmeal {
-  box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
-    inset -10px -10px 5px rgba(228, 232, 233, 0.315);
-  background-color: rgba(25, 69, 139, 0.7);
+  background-color: rgba(225, 228, 233, 0.5);
 }
 
-#codequiz {
-  box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
-    inset -10px -10px 5px rgba(228, 232, 233, 0.315);
-  background-color: rgba(25, 69, 139, 0.7);
+#quiz {
+  background-color: rgba(195, 207, 30, 0.5);
 }
 
-#passGen {
-  box-shadow: inset 10px 10px 5px rgb(9, 129, 15),
-    inset -10px -10px 5px rgba(15, 148, 11, 0.8);
-  background-color: rgba(9, 129, 15, 0.224);
+#techblog {
+  background-color: rgba(34, 224, 183, 0.315);
+}
+
+#teamprof {
+  background-color: rgba(65, 121, 158, 0.5);
 }
 
 .formContainer {
@@ -300,7 +297,7 @@ article {
 /* Add a hover effect if you want */
 .fa:hover,
 .fas:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* Set a specific color for each brand */
