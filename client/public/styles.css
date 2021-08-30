@@ -144,31 +144,6 @@ h2 {
   margin: auto;
 }
 
-.myWorkTitle {
-  width: 70%;
-  margin: auto;
-}
-
-#projects {
-  text-align: center;
-  margin: 50px;
-  text-decoration: underline;
-}
-
-.myWork {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-.workCard {
-  display: flex;
-  margin: 10px;
-  width: 70%;
-}
-
 /*setup the card borders by div ID */
 /*shadow effect around each card. inset is short hand for top, left right and bottom*/
 
@@ -279,17 +254,14 @@ article {
 
 .socials {
   display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 70%;
+  justify-content: space-evenly;
 }
 
 /* Style all font awesome icons */
 .fa,
 .fas {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 50px;
+  width: 80px;
   text-align: center;
   text-decoration: none;
 }
@@ -297,7 +269,7 @@ article {
 /* Add a hover effect if you want */
 .fa:hover,
 .fas:hover {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 /* Set a specific color for each brand */

@@ -1,12 +1,11 @@
-import Heading from '../Heading';
-import Header from '../Heading'
+import Menu from '../Menu'
 
 
 
 function Home() {
     return (<div>
 
-        <Heading></Heading>
+<Menu></Menu>
         
 
     <section className="showcase-intro">

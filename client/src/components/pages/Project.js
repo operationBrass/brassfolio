@@ -1,16 +1,16 @@
-import Heading from '../Heading'
-import { Card, Reveal, Divider, Segment, Image, Icon, Grid, Container } from 'semantic-ui-react'
+
+import Menu from '../Menu'
+import { Card, Reveal, Image, Icon,Divider, Grid, Container } from 'semantic-ui-react'
 
 
 function Project() {
     return (
 <div>
-        <Heading>Project History </Heading>
+        <Menu></Menu>
         <Divider hidden />
-     
-       
-        
- 
+        <Divider hidden />
+        <Divider hidden />
+
         <Container text>
           
         <Grid columns={2} >
