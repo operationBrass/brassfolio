@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom';
 export default class MenuExampleInvertedSecondary extends Component {
   state = { activeItem: 'home' }
 
-    handleItemClick = (e, { name }) =>
-        {
-      this.state = { activeItem: name };
-        }
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   render() {
     const { activeItem } = this.state

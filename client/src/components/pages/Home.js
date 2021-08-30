@@ -4,7 +4,7 @@ function Home() {
     return (<div>
     <section className="showcase-intro">
       <div className="showcase-title">
-        <h1>Brendan <br />Lewis</h1>
+        <Link to="/about"><h1>Brendan <br />Lewis</h1></Link>
       </div>
       <div className="showcase-enter">
         <p>
