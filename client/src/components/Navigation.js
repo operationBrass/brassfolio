@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-import { Menu, Segment, Container} from 'semantic-ui-react'
+import { Menu, Segment, Container } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 
 export default class MenuExampleInvertedSecondary extends Component {
   state = { activeItem: 'home' }
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    handleItemClick = (e, { name }) =>
+        {
+      this.state = { activeItem: name };
+        }
 
   render() {
     const { activeItem } = this.state
@@ -13,31 +17,39 @@ export default class MenuExampleInvertedSecondary extends Component {
         <Container text>
       <Segment inverted>
         <Menu inverted pointing secondary >
-          <Menu.Item
-            name='Home'
+          <Link to="/">
+              <Menu.Item
+            name='home'
             active={activeItem === 'home'}
-                          onClick={this.handleItemClick}
-                          href="/"
-          />
+                  onClick={this.handleItemClick}>
+                  
+                          </Menu.Item>
+          </Link>           
+          <Link to="/projects">
           <Menu.Item
             name='projects'
             active={activeItem === 'projects'}
                           onClick={this.handleItemClick}
-                          href="/projects"
-                      />
+                         
+                />
+              </Link>
+              <Link to="/about">
                                 <Menu.Item
             name='about'
             active={activeItem === 'about'}
                           onClick={this.handleItemClick}
-                          href="/about"
-          />
+                      
+                /></Link>
+              <Link to="/contact">
           <Menu.Item
             name='contact'
             active={activeItem === 'contact'}
                           onClick={this.handleItemClick}
-                          href="/contact"
-          />
+                  
+                />
+                </Link>
         </Menu>
+        
       </Segment></Container>
     )
   }

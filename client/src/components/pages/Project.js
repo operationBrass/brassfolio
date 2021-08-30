@@ -1,12 +1,10 @@
-
-import Menu from '../Menu'
 import { Card, Reveal, Image, Icon,Divider, Grid, Container } from 'semantic-ui-react'
 
 
 function Project() {
     return (
 <div>
-        <Menu></Menu>
+      
         <Divider hidden />
         <Divider hidden />
         <Divider hidden />
@@ -232,10 +230,6 @@ function Project() {
 </Grid.Row>
             </Grid>
             </Container>
-      
-        
-            
-          
 </div>);
 }
                                                 

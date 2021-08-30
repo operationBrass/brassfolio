@@ -3,28 +3,32 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Project from './components/pages/Project'
+import Layout from './components/layout';
 import 'semantic-ui-css/semantic.min.css'
-
-import { BrowserRouter as Router, Route  } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/">
     <div className="App">
-      <Home></Home>
-        </div>
+
+      <Router>
+        <Switch>
+          <Layout>
+      <Route exact path="/" component={Home}>
+
       </Route>
-      <Route exact path="/projects">
-        <Project> </Project>
+      <Route exact path="/projects" component={Project}>
+        
       </Route>
-      <Route exact path="/contact">
-        <Contact> </Contact>
+      <Route exact path="/contact" component={Contact}>
+     
       </Route>
-      <Route exact path="/about">
-        <About> </About>
-      </Route>
-    </Router>
+      <Route exact path="/about" component={About}>
+          </Route>
+          </Layout>
+          </Switch>
+          </Router>
+      </div>
   );
 }
 

@@ -1,26 +1,19 @@
-import Menu from '../Menu'
-
-
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (<div>
-
-<Menu></Menu>
-        
-
     <section className="showcase-intro">
       <div className="showcase-title">
         <h1>Brendan <br />Lewis</h1>
       </div>
       <div className="showcase-enter">
         <p>
-          <a href="/projects" className="butt-styles">
+          <Link className="butt-styles" to="/projects">
             BROWSE MY WORK
-          </a>
+          </Link>
         </p>
       </div>
     </section>
-    <footer><p></p> </footer>
 </div>);
 }
 export default Home;

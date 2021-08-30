@@ -1,10 +1,9 @@
-import Footer from '../Footer'
-import Menu from '../Menu'
+
 
 function About() {
     return (
         <div>
-          <Menu></Menu>
+        
 <main className="showcase">
     <div className="main-content">
 <section>
@@ -20,7 +19,6 @@ function About() {
 </div>
     </main>
     
-<Footer></Footer>
 </div>
 )
 }

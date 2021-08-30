@@ -1,12 +1,9 @@
-import Footer from '../Footer'
-import Menu from '../Menu'
-
 
 
 function Contact() {
     return (
         <div>
-          <Menu></Menu>
+
 <main className="showcase">
     <div className="main-content">
 
@@ -44,7 +41,7 @@ function Contact() {
 </section>
 </div>
             </main>
-            <Footer></Footer>
+  
         </div>
     )
 }
