@@ -181,10 +181,6 @@ h5 {
   opacity: 0.9;
 }
 
-.setSize {
-  opacity: 0.9;
-}
-
 .projectImages {
   height: 250px;
 }
@@ -211,6 +207,11 @@ h5 {
 
 #teamprof {
   background-color: rgba(65, 121, 158, 0.5);
+}
+
+#aboutme {
+  background-color: rgba(8, 4, 63, 0.8);
+  color: white;
 }
 
 .formContainer {

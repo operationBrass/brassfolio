@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Navigation from './Navigation';
 //import Header from '../components/';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 
 export default function Layout(props) {
     return (

@@ -1,26 +1,35 @@
+import React from 'react'
+import { Card,Image, Icon,Container, Divider } from 'semantic-ui-react'
 
-
-function About() {
-    return (
-        <div>
-        
-<main className="showcase">
-    <div className="main-content">
-<section>
-                
-    <div className="project-intro">
-        <h2> About Me </h2>
-        <p>  Having gained certification in 
-            ServiceNow Discovery, Azure Cloud Fundamentals and ITIL V4 Foundation, I look to increase my technical abilities. Being apart of the UWA Coding Bootcamp for 2021 
-            I have been gaining new skills with HTML, CSS, Javascript including associated frameworks such as Node, Bootstrap, Bulma and more. I look forward to continuing to completion and to keep the improvements coming!
-        </p>
-    </div>
-</section>
-</div>
-    </main>
-    
-</div>
+const extra = (
+  <a>
+    <Icon name='user' />
+    16 Friends
+  </a>
 )
-}
 
-export default About;
+const About = () => (
+    <Container text >
+        <Divider hidden />
+        <Divider hidden />
+        <Divider hidden/>
+        <Card>
+            <Image src="./images/myprofilepic.jfif"/>
+            <Card.Content id="aboutme" fluid>IT Service Delivery professional and aspiring Web engineer. Having just completed coding bootcamp with UWA i have developed a strong foundation from which to expand on.
+            Please feel free to browse my work or reach out on the contact me page. Thanks for visiting.
+            </Card.Content>
+            <Card.Content extra>
+            <a href="https://github.com/operationBrass/homework-assignment-3">
+            <Icon name='github' size="huge" />
+     
+                        </a>
+                        <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                  </Card.Content>
+  </Card>
+    </Container>
+
+)
+
+export default About
+           
+           
