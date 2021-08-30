@@ -1,5 +1,16 @@
-import { Card, Reveal, Image, Icon,Divider, Grid, Container } from 'semantic-ui-react'
-
+import { Card, Reveal, Image, Icon, Divider, Grid, Container } from 'semantic-ui-react'
+import passLogo from '../../images/passgenLogo-2.PNG'
+import passwordGen from '../../images/passwordGen.png'
+import quiz from '../../images/quiz.PNG'
+import quizLogo from '../../images/quizLogo-1.PNG'
+import realmeallogo from '../../images/realmealLogo.PNG'
+import teamgenlogo from '../../images/teamgen-logo.PNG'
+import teamgen from '../../images/teamgen.PNG'
+import techblog from '../..//images/techBlog.PNG'
+import techbloglogo from '../../images/techblog-logo.PNG'
+import weatherForecast from '../../images/weatherForecast.png'
+import weatherLogo from '../../images/weatherLogo.PNG'
+import realmeal from '../../images/therealmealApp.PNG'
 
 function Project() {
     return (
@@ -18,7 +29,7 @@ function Project() {
                   <Reveal animated='move up'>
                 <Reveal.Content hidden>
                     <Card fluid>
-       <Image className="projectImages" src='./images/passwordGen.png'/>
+       <Image className="projectImages" src={passwordGen}/>
                     <Card.Content  id="passgen">
             
                     
@@ -41,7 +52,7 @@ function Project() {
                 </Card>
                   </Reveal.Content>
                   <Reveal.Content visible>
-                      <Image className="setSize" src="./images/passgenLogo-2.PNG"/>
+                    <Image className="setSize" src={passLogo}/>
                     </Reveal.Content>
               </Reveal> </Grid.Column>
             
@@ -50,7 +61,7 @@ function Project() {
               <Reveal animated='move up'>
         <Reveal.Content hidden>
                     <Card fluid>
-                    <Image src='./images/quiz.png' className="projectImages" />
+                    <Image src={quiz} className="projectImages" />
             <Card.Content id="quiz" >
      
       
@@ -72,7 +83,7 @@ function Project() {
           </Card>
           </Reveal.Content>
           <Reveal.Content visible>
-                <Image className="setSize" src="./images/quizlogo-1.PNG"/>
+                <Image className="setSize" src={quizLogo}/>
               </Reveal.Content>
         </Reveal>
 
@@ -90,7 +101,7 @@ function Project() {
               <Reveal animated='move up'>
               <Reveal.Content hidden>
                     <Card fluid>
-                    <Image src='./images/weatherForecast.png'className="projectImages"  />
+                    <Image src={weatherForecast} className="projectImages"  />
                   <Card.Content id="weather">
     
             
@@ -114,7 +125,7 @@ function Project() {
                 </Card>
                 </Reveal.Content>
                 <Reveal.Content visible>
-                      <Image className="setSize" src="./images/weatherLogo.PNG"/>
+                      <Image className="setSize" src={weatherLogo}/>
                     </Reveal.Content>
               </Reveal>
               </Grid.Column>
@@ -125,7 +136,7 @@ function Project() {
               <Reveal animated='move up'>
           <Reveal.Content hidden>
                     <Card fluid>
-                    <Image src='./images/techBlog.png' className="projectImages" />
+                    <Image src={techblog} className="projectImages" />
               <Card.Content  id="techblog">
 
     
@@ -148,7 +159,7 @@ function Project() {
           </Card>
             </Reveal.Content>
             <Reveal.Content visible>
-                <Image className="setSize" src="./images/techblog-logo.PNG"/>
+                <Image className="setSize" src={techbloglogo}/>
               </Reveal.Content>
         </Reveal>
                 
@@ -163,7 +174,7 @@ function Project() {
       <Reveal animated='move up'>
       <Reveal.Content hidden>
                     <Card fluid>
-                    <Image src='./images/teamgen.png' className="projectImages"/>
+                    <Image src={teamgen} className="projectImages"/>
           <Card.Content id="teamprof">
   
     
@@ -185,7 +196,7 @@ function Project() {
         </Card>
         </Reveal.Content>
         <Reveal.Content visible>
-              <Image className="setSize" src="./images/teamgen-logo.PNG"/>
+              <Image className="setSize" src={teamgenlogo}/>
             </Reveal.Content>
       </Reveal>
       </Grid.Column>
@@ -196,7 +207,7 @@ function Project() {
       <Reveal animated='move up'>
   <Reveal.Content hidden>
                     <Card fluid>
-                    <Image src='./images/therealmealApp.PNG' className="projectImages" />
+                    <Image src={realmeal} className="projectImages" />
       <Card.Content  id="realmeal">
 
 
@@ -220,7 +231,7 @@ function Project() {
   </Card>
     </Reveal.Content>
     <Reveal.Content visible>
-        <Image className="setSize" src="./images/realmealLogo.PNG"/>
+        <Image className="setSize" src={realmeallogo}/>
       </Reveal.Content>
 </Reveal>
         

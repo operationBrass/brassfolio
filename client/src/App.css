@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  /*color based varibles*/
+
+  --main-bg-color: rgba(191, 195, 207, 0.746);
+  --h1-color: rgba(194, 86, 44, 0.6);
+  --h1-hover-color: rgba(
+    194,
+    86,
+    44,
+    1
+  ); /*applies to other styles other than h1*/
+}
