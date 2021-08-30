@@ -113,12 +113,6 @@ h2 {
   justify-content: center;
 }
 
-.header-nav ul,
-.main-nav ul {
-  padding: 0 1.5em;
-  display: flex;
-}
-
 .header-nav li,
 .main-nav li {
   padding: 1rem 1.5rem;
@@ -206,11 +200,36 @@ h5 {
 }
 
 .myWorkText a:hover {
-  color: rgb(240, 92, 6);
+  color: rgba(133, 135, 216, 0.226);
   text-decoration: underline;
 }
 
+.setSize,
+.ui.card,
+.ui.cards > .card {
+  height: 600px;
+  opacity: 0.9;
+}
+
+.setSize {
+  opacity: 0.9;
+}
+
+#passgen {
+  background-color: rgba(13, 180, 124, 0.2);
+}
+
 #weather {
+  background-color: rgba(25, 69, 139, 0.2);
+}
+
+#realmeal {
+  box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
+    inset -10px -10px 5px rgba(228, 232, 233, 0.315);
+  background-color: rgba(25, 69, 139, 0.7);
+}
+
+#codequiz {
   box-shadow: inset 10px 10px 5px rgb(56, 129, 224),
     inset -10px -10px 5px rgba(228, 232, 233, 0.315);
   background-color: rgba(25, 69, 139, 0.7);
