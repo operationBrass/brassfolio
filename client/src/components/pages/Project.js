@@ -1,4 +1,4 @@
-import { Card, Reveal, Image, Icon, Divider, Grid, Container } from 'semantic-ui-react'
+import { Card, Reveal, Image, Icon, Divider, Grid, Container, Message } from 'semantic-ui-react'
 import passLogo from '../../images/passgenLogo-2.PNG'
 import passwordGen from '../../images/passwordGen.png'
 import quiz from '../../images/quiz.PNG'
@@ -42,12 +42,12 @@ function Project() {
                   accepting user input, validating user input and returning password based on users specific criteria.
                 </Card.Description>
             </Card.Content>
-          <Card.Content extra>
-            <a href="https://github.com/operationBrass/homework-assignment-3">
+          <Card.Content extra textAlign="center">
+                        <a href="https://github.com/operationBrass/homework-assignment-3">
             <Icon name='github' size="huge" />
-     
                         </a>
                         <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                        <a href="https://operationbrass.github.io/homework-assignment-3"> <Icon name='eye' size="huge" />     </a>
                   </Card.Content>
                 </Card>
                   </Reveal.Content>
@@ -73,12 +73,11 @@ function Project() {
           Test your Javascript knowledge with this 5 question Quiz. Utilising bootstrap and jQuery to manage the animated 'carousel' and overall styling, consideration for mobile users and make sure to add your score to the leaderboard!
           </Card.Description>
       </Card.Content>
-    <Card.Content extra>
+      <Card.Content extra textAlign="center">
       <a href="https://github.com/operationBrass/homework-assignment-4">
-      <Icon textAlign="center" name='github' size="huge" />
-            
-                        </a>
-                        <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+      <Icon textAlign="center" name='github' size="huge" /></a>
+      <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+      <a href="https://operationbrass.github.io/homework-assignment-4"> <Icon name='eye' size="huge" />     </a>
             </Card.Content>
           </Card>
           </Reveal.Content>
@@ -116,11 +115,12 @@ function Project() {
 
                 </Card.Description>
             </Card.Content>
-          <Card.Content extra>
-            <a href="https://github.com/operationBrass/homework-assignment-6">
+          <Card.Content extra textAlign="center">
+                        <a href="https://github.com/operationBrass/homework-assignment-6">
              <Icon name='github' size="huge" />
                         </a>
                         <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                        <a href="https://operationbrass.github.io/homework-assignment-6"> <Icon name='eye' size="huge" />     </a>
                   </Card.Content>
                 </Card>
                 </Reveal.Content>
@@ -150,11 +150,12 @@ function Project() {
             Interesting learnings from  producing a consistant result when all criteria selected and only 8 character password choosen.
           </Card.Description>
       </Card.Content>
-    <Card.Content extra>
-      <a href="https://github.com/operationBrass/homework-assignment-14">
+    <Card.Content extra textAlign="center">
+                        <a href="https://github.com/operationBrass/homework-assignment-14">
       <Icon name='github' size="huge" />
                         </a>
                         <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                        <a href="https://brasstech.herokuapp.com/"> <Icon name='eye' size="huge" />     </a>
             </Card.Content>
           </Card>
             </Reveal.Content>
@@ -184,14 +185,16 @@ function Project() {
       </Card.Meta>
         <Card.Description>
         CLI application takes in employee information and provides a HTML report of the team members. This project being a nice introduction to the Inqurier package in particular.
-        </Card.Description>
+        <Divider hidden/><Message color="red">This application is command line and has no deployable link.</Message>
+                        </Card.Description>
     </Card.Content>
-  <Card.Content extra>
+  <Card.Content extra textAlign="center">
     <a href="https://github.com/operationBrass/homework-assignment-10">
     <Icon name='github' size="huge" />
 
                         </a>
                         <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                        <Icon name='eye slash' size="huge" />  
           </Card.Content>
         </Card>
         </Reveal.Content>
@@ -222,11 +225,12 @@ function Project() {
 
   </Card.Description>
 </Card.Content>
-<Card.Content extra>
+<Card.Content extra textAlign="center">
 <a href="https://github.com/michaelshxw/The-Real-Meal-v2">
 <Icon name='github' size="huge" />
                         </a>
                         <a href="/contact"> <Icon name='question circle outline' size="huge" />     </a>
+                        <a href="https://realmealplanning.herokuapp.com/"> <Icon name='eye' size="huge" />     </a>
     </Card.Content>
   </Card>
     </Reveal.Content>
