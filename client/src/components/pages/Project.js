@@ -20,12 +20,12 @@ function Project() {
         <Divider hidden />
         <Divider hidden />
 
-        <Container text>
+
           
-        <Grid columns={2} >
+        <Grid stackable container centered columns="2" textAlign="center" verticalAlign="middle" >
           <Grid.Row stretched>
       
-            <Grid.Column>
+            <Grid.Column width={5}>
                   <Reveal animated='move up'>
                 <Reveal.Content hidden>
                     <Card fluid>
@@ -56,7 +56,7 @@ function Project() {
                     </Reveal.Content>
               </Reveal> </Grid.Column>
             
-              <Grid.Column>
+              <Grid.Column width={5}>
 
               <Reveal animated='move up'>
         <Reveal.Content hidden>
@@ -96,7 +96,7 @@ function Project() {
 
             <Grid.Row stretched>
       
-              <Grid.Column>
+              <Grid.Column width={5}>
               <Reveal animated='move up'>
               <Reveal.Content hidden>
                     <Card fluid>
@@ -131,7 +131,7 @@ function Project() {
               </Grid.Column>
           
       
-              <Grid.Column>
+              <Grid.Column width={5}>
 
               <Reveal animated='move up'>
           <Reveal.Content hidden>
@@ -171,7 +171,7 @@ function Project() {
             
             <Grid.Row stretched>
       
-      <Grid.Column>
+      <Grid.Column width={5}>
       <Reveal animated='move up'>
       <Reveal.Content hidden>
                     <Card fluid>
@@ -205,7 +205,7 @@ function Project() {
       </Grid.Column>
   
 
-      <Grid.Column>
+      <Grid.Column width={5}>
 
       <Reveal animated='move up'>
   <Reveal.Content hidden>
@@ -244,7 +244,7 @@ function Project() {
 
 </Grid.Row>
             </Grid>
-            </Container>
+            
 </div>);
 }
                                                 

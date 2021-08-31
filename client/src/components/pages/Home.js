@@ -1,20 +1,17 @@
 import { Link } from 'react-router-dom'
-import { Header, Button, Icon,  Grid} from 'semantic-ui-react'
+import { Header, Segment, Button, Icon,  Grid} from 'semantic-ui-react'
 
 function Home() {
   return (<div style={{
-    Height: '100vh', marginTop:"8%"}}>
-<Grid textAlign="center" verticalAlign="middle" >
+    Height: '100vh', margin:'5em'}}>
+<Grid container centered columns="equal" textAlign="center" verticalAlign="middle" >
         <Grid.Row>
-          <Grid.Column>
-        <Link to="/about"><Header as="h1" inverted color="olive">Brendan Lewis</Header></Link>
-          </Grid.Column>
-          <Grid.Column>
+          <Grid.Column >
+          <Link to="/about"><Header as="h1" inverted color="olive">Brendan Lewis</Header></Link>
           <Link className="butt-styles" to="/projects">
-          <Header as="h1" inverted color="olive"> Web Developer </Header> 
+          <Header as="h4" inverted color="red" textAlign="center"> Web Developer / ITSM Professional </Header> 
             </Link>
           </Grid.Column>
-            
       </Grid.Row>
       
       <Grid.Row>
