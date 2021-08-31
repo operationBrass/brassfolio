@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/brassfolio/static/css/main.b5e657a0.chunk.css",
-    "main.js": "/brassfolio/static/js/main.70de9563.chunk.js",
-    "main.js.map": "/brassfolio/static/js/main.70de9563.chunk.js.map",
-    "runtime-main.js": "/brassfolio/static/js/runtime-main.adee78ab.js",
-    "runtime-main.js.map": "/brassfolio/static/js/runtime-main.adee78ab.js.map",
+    "main.js": "/brassfolio/static/js/main.e97a1db6.chunk.js",
+    "main.js.map": "/brassfolio/static/js/main.e97a1db6.chunk.js.map",
+    "runtime-main.js": "/brassfolio/static/js/runtime-main.b568d5d0.js",
+    "runtime-main.js.map": "/brassfolio/static/js/runtime-main.b568d5d0.js.map",
     "static/css/2.61987e01.chunk.css": "/brassfolio/static/css/2.61987e01.chunk.css",
-    "static/js/2.080000ea.chunk.js": "/brassfolio/static/js/2.080000ea.chunk.js",
-    "static/js/2.080000ea.chunk.js.map": "/brassfolio/static/js/2.080000ea.chunk.js.map",
-    "static/js/3.046e8d6c.chunk.js": "/brassfolio/static/js/3.046e8d6c.chunk.js",
-    "static/js/3.046e8d6c.chunk.js.map": "/brassfolio/static/js/3.046e8d6c.chunk.js.map",
+    "static/js/2.81ce0fc2.chunk.js": "/brassfolio/static/js/2.81ce0fc2.chunk.js",
+    "static/js/2.81ce0fc2.chunk.js.map": "/brassfolio/static/js/2.81ce0fc2.chunk.js.map",
+    "static/js/3.fc47b455.chunk.js": "/brassfolio/static/js/3.fc47b455.chunk.js",
+    "static/js/3.fc47b455.chunk.js.map": "/brassfolio/static/js/3.fc47b455.chunk.js.map",
     "index.html": "/brassfolio/index.html",
     "static/css/2.61987e01.chunk.css.map": "/brassfolio/static/css/2.61987e01.chunk.css.map",
     "static/css/main.b5e657a0.chunk.css.map": "/brassfolio/static/css/main.b5e657a0.chunk.css.map",
-    "static/js/2.080000ea.chunk.js.LICENSE.txt": "/brassfolio/static/js/2.080000ea.chunk.js.LICENSE.txt",
+    "static/js/2.81ce0fc2.chunk.js.LICENSE.txt": "/brassfolio/static/js/2.81ce0fc2.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/brassfolio/static/media/outline-icons.ddae9b1b.woff",
     "static/media/styles.css": "/brassfolio/static/media/explorersunset.ab06a00c.jpg",
     "static/media/myprofilepic.326b92ae.jfif": "/brassfolio/static/media/myprofilepic.326b92ae.jfif",
@@ -31,10 +31,10 @@
     "static/media/weatherLogo.d4b31d59.PNG": "/brassfolio/static/media/weatherLogo.d4b31d59.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.adee78ab.js",
+    "static/js/runtime-main.b568d5d0.js",
     "static/css/2.61987e01.chunk.css",
-    "static/js/2.080000ea.chunk.js",
+    "static/js/2.81ce0fc2.chunk.js",
     "static/css/main.b5e657a0.chunk.css",
-    "static/js/main.70de9563.chunk.js"
+    "static/js/main.e97a1db6.chunk.js"
   ]
 }
