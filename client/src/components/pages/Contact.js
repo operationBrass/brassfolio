@@ -1,48 +1,33 @@
-
+import { Message, Divider, Header, Grid } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 function Contact() {
-    return (
-        <div>
+    return (<div >
+              
+              <Divider hidden />
+        <Divider hidden />
+        <Divider hidden />
+        <Divider hidden />
+        <Divider hidden />
 
-<main className="showcase">
-    <div className="main-content">
+        <Grid stackable container centered columns="1" textAlign="center" verticalAlign="middle" >
 
-<section>
-    
+            <Grid.Row>
+            <Header as="h3" color="white"><Message color="black"> Name: Brendan Lewis   <Divider hidden/>Location: Perth, WA<Divider hidden/>Email: <Link to="mailto:lewis_brendan@outlook.com"> lewis_brendan@outlook.com </Link> </Message></Header>
+            </Grid.Row>
+<Grid.Row> <Header as="h2"> <Link to="https://docs.google.com/document/d/1BmqqYQBU_gJC4MhWgm7r5Dqm4ZrA-Z6C/edit?usp=sharing&ouid=113365640444249883892&rtpof=true&sd=true"> Résumé of Brendan Lewis </Link> </Header>
 
-<div className="project-intro" data-component->
+            </Grid.Row>
+            <Grid.Row>
+<Link to="https://github.com/operationBrass" className="fa fa-github"></Link>
 
+<Link to="https://www.linkedin.com/in/brendanlewis-brass/" className="fa fa-linkedin"></Link>
 
-<div className="contact">
+<Link to="https://www.youtube.com" className="fa fa-youtube"></Link>
 
-<h4> CONTACT DETAILS </h4>
-
-
-<p id="contactDeets">Name: Brendan Lewis   <br />Location: Perth, WA<br/>Email: <a href="mailto:lewis_brendan@outlook.com"> lewis_brendan@outlook.com </a></p>
-
-<p> </p>
-
-<h5> <a href="./BLresume.pdf" id="resume"> Résumé </a> </h5></div>
-
-
-
-<div className="socials">
-
-<a href="https://github.com/operationBrass" className="fa fa-github"></a>
-
-<a href="https://www.linkedin.com/in/brendanlewis-brass/" className="fa fa-linkedin"></a>
-
-<a href="#" className="fa fa-youtube"></a>
-
-<a href="#" className="fa fa-facebook"></a>
-
+<Link to="https://www.facebook.com" className="fa fa-facebook"></Link></Grid.Row>
+</Grid>
 </div>
-</div>
-</section>
-</div>
-            </main>
-  
-        </div>
     )
 }
 
