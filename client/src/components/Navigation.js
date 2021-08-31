@@ -14,7 +14,7 @@ export default class MenuExampleInvertedSecondary extends Component {
         <Container text>
       <Segment inverted>
         <Menu inverted pointing secondary >
-          <Link to="/">
+          <Link to="/brassfolio">
               <Menu.Item
             name='home'
             active={activeItem === 'home'}
