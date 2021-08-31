@@ -19,13 +19,13 @@ function Contact() {
 
             </Grid.Row>
             <Grid.Row>
-<Link to="https://github.com/operationBrass" className="fa fa-github"></Link>
+<Link to="www.github.com/operationBrass" className="fa fa-github"></Link>
 
-<Link to="https://www.linkedin.com/in/brendanlewis-brass/" className="fa fa-linkedin"></Link>
+<Link to="www.linkedin.com/in/brendanlewis-brass/" className="fa fa-linkedin"></Link>
 
-<Link to="https://www.youtube.com" className="fa fa-youtube"></Link>
+<Link to="www.youtube.com" className="fa fa-youtube"></Link>
 
-<Link to="https://www.facebook.com" className="fa fa-facebook"></Link></Grid.Row>
+<Link to="www.facebook.com" className="fa fa-facebook"></Link></Grid.Row>
 </Grid>
 </div>
     )
