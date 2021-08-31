@@ -21,7 +21,7 @@ function App() {
         backgroundPosition:"bottom"
     }}
 >
-      <BrowserRouter basename="/brassfolio" />
+      <BrowserRouter basename="/brassfolio">
       <Router>
         <Switch>
           <Layout>
@@ -38,7 +38,7 @@ function App() {
           </Layout>
           </Switch>
       </Router>
-
+</BrowserRouter>
       </div>
   );
 }
